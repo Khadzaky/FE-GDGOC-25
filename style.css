@@ -1,0 +1,9 @@
+#first-section {
+    text-align: center;
+    background-color: lightgrey;
+    height: 50vh;
+    width: 50vw;
+    margin: 50px 100px 100px 50px;
+    border: 10px ridge black;
+}
+
