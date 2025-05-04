@@ -9,40 +9,48 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <section id="first-section" class="section-grid">
-      <div id="profile-box" class="box">
+    <section
+      class="text-center bg-gray-300 h-screen w-[50vw] my-[50px] mx-auto border-[10px] border-black rounded-2xl border-solid p-5"
+    >
+      <div class="relative">
         <div class="titles">
-          <h1 class="title profiles">Muhammad Khairul Dzaky</h1>
-          <h3 class="title-2 profiles">Junior Web Developer</h3>
-          <img class="image" src="./Dzaky.jpeg" alt="my-picture" />
+          <h1 class="text-4xl">Muhammad Khairul Dzaky</h1>
+          <h3 class="text-3xl">Junior Web Developer</h3>
+          <img
+            class="w-64 h-auto object-cover rounded-full mb-4 mx-auto p-3"
+            src="./Dzaky.jpeg"
+            alt="my-picture"
+          />
         </div>
         <div id="welcome-box" class="box">
           <div class="hello">
-            <h3>Sistem Informasi</h3>
+            <h3 class="text-3xl">Sistem Informasi</h3>
             <img
               style="margin-left: 2vw; max-width: 7vw"
               src="./Assets/hand-wave.png"
               alt=""
             />
           </div>
-          <p>
+          <p class="p-2">
             Lorem ipsum dolor sit amet consectetur adipisicing, elit. Aspernatur
             obcaecati veritatis excepturi alias sapiente eveniet exercitationem
             impedit eos velit magni.
           </p>
         </div>
-        <div id="social-box" class="box">
-          <a href="https://www.instagram.com/khdzaky_" class="flex-items"
-            ><i class="fa-brands fa-instagram"></i
+        <div class="flex justify-center items-end gap-[100px] h-[40px]">
+          <a href="https://www.instagram.com/khdzaky_"
+            ><i class="fa-brands fa-instagram text-black text-[25px]"></i
           ></a>
           <a
             href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmuhammad-khairul-dzaky-64b504288%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAadQcMWWi74gGshWO8_NNrMGoi3bN6ef0voA5yQn9-0WFJ-BwLeVGuXnu_hI-w_aem_PaOJiD4ZRgFVwUeydB20yw&e=AT1EHD618eVnkwL60PgcpAJtETsGjcfU_NjOUztHqxkiR-3M2QzyGR4SN82URbcQ3i6kgfwR6eexbbvOmVEs8O6UnBMHxiUho0e1bQ"
-            class="flex-items"
-            ><i class="fa-brands fa-linkedin"></i
+            ><i class="fa-brands fa-linkedin text-black text-[25px]"></i
           ></a>
-          <a href="https://www.tiktok.com/@truxcaptain" class="flex-items"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.tiktok.com/@truxcaptain"
+            ><i class="fa-brands fa-tiktok text-black text-[25px]"></i
+          ></a>
         </div>
       </div>
     </section>
